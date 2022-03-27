@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 18px;
+  }
+  
+  :root {
+    --primary-color: #222222;
+    --secondary-color: #d01418;
+    --background-color: #6b6969;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+  }
+
+.cabecalho1{
+    justify-content: space-between;
+    display: flex;
+    height: 120px;
+    background-color: gray;
+    box-shadow: #222222 ;
+}
+
+.botaomenu{
+    background: #C4C4C4;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 36px;
+display: block;
+text-decoration: none;
+width: 80px;
+height: 30px;
+text-align: center;
+font-size: 20px;
+}
+
+.botaomenu2{
+    background: #C4C4C4;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 36px;
+display: block;
+text-decoration: none;
+width: 130px;
+height: 30px;
+text-align: center;
+font-size: 20px;
+}
+
+.botaomenu3{
+    background: #C4C4C4;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 36px;
+display: block;
+text-decoration: none;
+width: 80px;
+height: 30px;
+text-align: center;
+font-size: 20px;
+}
+
+.imglogo{
+    height: 80px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+
+}
+
+.menu{
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+
+.imgcidade{
+   background-image: url(../Img/cidade.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 400px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  color: #d01418;
+   font-size: 4rem;
+}
+
+
+
+section{
+  background-color: #bdb1b1;
+  height:470px;
+  width: 100%;
+  
+}
+
+.section{
+  background-color: #bdb1b1;
+  height:700px;
+  width: 100%;
+}
+
+h2{
+    text-align: center;
+  margin-bottom: 30px;
+  gap: 30px;
+
+}
+
+.boxcards{
+    width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.cards{
+  width: 30%;
+  height: 500px;
+  border: 1px solid red;
+  border-radius: 15px;
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+  
+}
+
+
+.cardimg1{
+  width: 100%;
+  height: 200px;
+  border-bottom: 1px red solid;
+  background-image: url(../Img/turismo.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.cardimg2{
+  width: 100%;
+  height: 200px;
+  border-bottom: 1px red solid;
+  background-image: url(../Img/restaurante.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.cardimg3{
+  width: 100%;
+  height: 200px;
+  border-bottom: 1px red solid;
+  background-image: url(../Img/historia.jpg.crdownload);
+  background-position: center;
+  background-size: cover;
+}
+
+.cardconteudo{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul{
+  list-style: none;
+  margin-top: 30%;
+  gap: 10px;
+  margin-right: 20px;
+  text-align: center;
+  align-items: center;
+  font-size: 25px;
+
+}
+
+ol{
+  
+  margin-top: 30%;
+  gap: 10px;
+  
+  font-size: 25px;
+  align-items: center;
+}
+
+.li{
+  margin-top: 20px;
+  
+}
+
+.texto__historia{
+  font-size: 20px;
+  ;
+  
+  
+
+}
+
+
+.video{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  
+
+}
+
+footer{
+  background-color: gray;
+}
+
+.logos__footer{
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  height: 150px;
+  margin-left: 45%;
+  gap: 10px;
+}
+
+
+.imgfooter{
+  
+  height: 100px;
+}
+
+
+
+@media (max-width: 425px) {
+  
+  .cabecalho1{
+
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    
+}
+
+.menu{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.boxcards{
+  width: 100%;
+display: flex;
+flex-direction: column;
+justify-items: center;
+align-items: center;
+
+}
+
+.cards{
+width: 70%;
+height: 600px;
+border: 1px solid red;
+border-radius: 15px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+margin-bottom: 20px;
+
+}
+
+.section{
+  height: auto;
+}
+
+
+
+
+.logos__footer{
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 250px;
+  align-items: center;
+  
+}
+
+
+
+}
